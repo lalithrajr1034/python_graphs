@@ -4,7 +4,7 @@ import seaborn as sns
 
 print("Dataset loaded successfully!")
 df = pd.read_csv("placement_data_full_class.csv")
-
+# Link to placement_data_full_class.csv: https://www.kaggle.com/datasets/barkhaverma/placement-data-full-class
 plt.figure(figsize=(12, 5))
 
 plt.subplot(1, 2, 1)

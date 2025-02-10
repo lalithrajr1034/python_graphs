@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-df = pd.read_csv("flights_data.csv")
+df = pd.read_csv("flights_data.csv")   # to run this program you require flights_data.csv (Link to flights_data.csv: https://www.kaggle.com/datasets/divyansh22/flight-delay-prediction)
 df_filtered = df[df["Year"].isin([2019, 2020])]
 
 average_distance = df_filtered.groupby("Year")["Distance"].mean()
