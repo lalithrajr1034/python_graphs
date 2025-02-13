@@ -85,7 +85,7 @@ This program looks at flight data for January 2019 and 2020. It shows how to vis
 1. How far flights traveled in both years.
 2. How many flights went to certain airports.
 3. Showing the difference between the two years using a sunburst chart.
-4.Link to Data Set: https://www.kaggle.com/datasets/divyansh22/flight-delay-prediction 
+4. Link to Data Set: https://www.kaggle.com/datasets/divyansh22/flight-delay-prediction.
 
 ---
 
